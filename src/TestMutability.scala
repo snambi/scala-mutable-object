@@ -11,7 +11,7 @@ class Mutable( x:Int){
   override def toString(): String = "("+ value + ")";
 }
 
-object MainProgram {
+object TestMutability {
   def main( args: Array[String] ){
     
     val mutable = new Mutable(10);
