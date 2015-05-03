@@ -22,7 +22,7 @@ object MainProgram {
     println("mutable = " + mutable);
     println("immutable = " + immutable);
     
-    mutable.value = 100;
+    mutable.setValue(100);
     
     println("mutable = " + mutable);
     println("immutable = " + immutable);
